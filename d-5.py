@@ -1,12 +1,13 @@
 # 次のコードが正しく動作するような MyCounterV2 クラスを実装してください
 
+
 class MyCounterV2:
-    #コストラクタ
-    def __init__(self,value,step):
+    # コストラクタ
+    def __init__(self, value, step):
         self.value = value
         self.step = step
-    
-    #count_upメソッド
+
+    # count_upメソッド
     def count_up(self):
         self.value += self.step
 

@@ -4,17 +4,18 @@
 
 import math
 
+
 class Rectangle:
-    #コンストラクタ
-    def __init__(self,height,width):
+    # コンストラクタ
+    def __init__(self, height, width):
         self.height = height
         self.width = width
 
-    #areaメソッド
+    # areaメソッド
     def area(self):
         return f"{self.height * self.width:.2f}"
-    
-    #diagonalメソッド
+
+    # diagonalメソッド
     def diagonal(self):
         return f"{math.sqrt( self.height ** 2 + self.width ** 2):.2f}"
 

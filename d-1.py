@@ -4,15 +4,15 @@ import math
 
 
 class Circle:
-    #コストラクタ
-    def __init__(self,radius):
+    # コストラクタ
+    def __init__(self, radius):
         self.radius = radius
-    
-    #areaメソッド
+
+    # areaメソッド
     def area(self):
         return f"{self.radius ** 2 * math.pi:.2f}"
-    
-    #perimeterメソッド
+
+    # perimeterメソッド
     def perimeter(self):
         return f"{self.radius * 2 * math.pi:.2f}"
 

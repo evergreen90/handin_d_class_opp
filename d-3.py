@@ -3,22 +3,24 @@
 
 import math
 
+
 class Square:
-    #コストラクタ
-    def __init__(self,side):
+    # コストラクタ
+    def __init__(self, side):
         self.side = side
-    
-    #areaメソッド
+
+    # areaメソッド
     def area(self):
         area_value = self.side * self.side
         if int(area_value) % 1 == 0:
             return f"{area_value}"
         else:
             return f"{area_value:.2f}"
-    
-    #diagonalメソッド
+
+    # diagonalメソッド
     def diagonal(self):
         return f"{math.sqrt( self.side **2 + self.side **2 ):.2f}"
+
 
 square1 = Square(side=1.5)
 print(square1.area())  # 2.25

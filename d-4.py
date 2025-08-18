@@ -1,13 +1,15 @@
 # 次のコードが正しく動作するような MyCounterV1 クラスを実装してください
 
+
 class MyCounterV1:
-    #コストラクタ
-    def __init__(self,value):
+    # コストラクタ
+    def __init__(self, value):
         self.value = value
-    
-    #countupメソッド
+
+    # countupメソッド
     def count_up(self):
         self.value += 1
+
 
 counter1 = MyCounterV1(value=0)
 print(counter1.value)  # 0

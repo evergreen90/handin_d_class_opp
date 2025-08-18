@@ -1,16 +1,17 @@
 # 次のコードが正しく動作するような MyCounterV3 クラスを実装してください
 
+
 class MyCounterV3:
-    #コンストラクタ
-    def __init__(self,value,step):
+    # コンストラクタ
+    def __init__(self, value, step):
         self.value = value
         self.step = step
-    
-    #count_upメソッド
+
+    # count_upメソッド
     def count_up(self):
         self.value += self.step
 
-    #count_downメソッド
+    # count_downメソッド
     def count_down(self):
         self.value -= self.step
 
